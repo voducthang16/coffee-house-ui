@@ -1,7 +1,9 @@
 .wrapper {
+    position: relative;
     display: flex;
     align-content: center;
     height: 60px;
+    z-index: 10;
     .logo-link {
         display: block;
         max-height: 60px;
@@ -28,7 +30,7 @@
                 text-decoration: none;
                 line-height: 60px;
 
-                color: var(--text);
+                color: var(--white);
 
                 outline: none;
             }

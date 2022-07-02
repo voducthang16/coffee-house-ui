@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 import grid from '~/flex-grid.scss';
 import image from '~/assets/images';
-import Image from '~/layouts/components/Image';
+import Image from '~/components/Image';
 import { Link } from 'react-router-dom';
 import config from '~/config';
 const cx = classNames.bind(styles, grid);
@@ -11,7 +11,7 @@ function Header() {
         <header className={cx('wrapper')}>
             <div className={cx('container wide')}>
                 <div className={cx('row')}>
-                    <div style={{ backgroundColor: '#ccc' }} className={cx('col l-2')}>
+                    <div className={cx('col l-2')}>
                         <Link to={config.routes.home} className={cx('logo-link')}>
                             <Image className={cx('logo-img')} src={image.logo} alt="Logo Image" />
                         </Link>
