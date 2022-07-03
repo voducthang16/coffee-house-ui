@@ -13,7 +13,7 @@ function Header() {
                 <div className={cx('row')}>
                     <div className={cx('col l-2')}>
                         <Link to={config.routes.home} className={cx('logo-link')}>
-                            <Image className={cx('logo-img')} src={image.logo} alt="Logo Image" />
+                            <Image className={cx('logo-img')} src={image.logo} alt="Logo" />
                         </Link>
                     </div>
                     <div className={cx('col l-6 l-o-4')}>

@@ -1,9 +1,9 @@
 import Header from '~/layouts/components/Header';
 function DefaultLayout({ children }) {
     return (
-        <div>
+        <div className="App">
             <Header />
-            <div className="container">{children}</div>
+            <main className="main">{children}</main>
         </div>
     );
 }
