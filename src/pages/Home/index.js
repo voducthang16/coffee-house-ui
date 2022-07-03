@@ -1,5 +1,12 @@
+import Slider from '~/layouts/components/Slider';
+import Reservations from '~/layouts/components/Reservations';
 function Home() {
-    return <h1>Home</h1>;
+    return (
+        <div className="home">
+            <Slider />
+            <Reservations />
+        </div>
+    );
 }
 
 export default Home;
