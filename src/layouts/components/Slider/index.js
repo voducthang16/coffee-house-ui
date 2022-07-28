@@ -3,7 +3,7 @@ import grid from '~/flex-grid.scss';
 import image from '~/assets/images';
 import Image from '../Image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper';
+import { Pagination, Navigation, EffectFade } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -51,7 +51,6 @@ function Slider() {
                     clickable: true,
                 }}
                 navigation={true}
-                // Autoplay
                 modules={[Navigation, Pagination, EffectFade]}
                 className="mySwiper"
             >
