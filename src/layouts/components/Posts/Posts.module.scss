@@ -1,0 +1,50 @@
+.wrapper {
+    padding-bottom: 50px;
+    background-color: #eae7de;
+}
+
+.img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.title {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 2.8rem;
+}
+
+.title span {
+    letter-spacing: 6px;
+    display: inline-block;
+    margin-right: 8px;
+    color: #c7a17a;
+    font-style: italic;
+    font-size: 5rem;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #666666;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #c7a17a;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.icon {
+    margin-left: 8px;
+    fill: #666666;
+    transform: translateX(0);
+    transition: all ease 0.3s;
+}
+
+.link:hover .icon {
+    transform: translateX(4px);
+}
