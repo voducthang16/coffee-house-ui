@@ -4,6 +4,7 @@ const images = {
     _1: require('~/assets/images/1.jpg'),
     _2: require('~/assets/images/2.jpg'),
     _3: require('~/assets/images/3.jpg'),
+    coffee: require('~/assets/images/coffee.jpg'),
     video: require('~/assets/slider_video.mp4'),
 };
 

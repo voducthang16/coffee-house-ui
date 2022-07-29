@@ -1,0 +1,105 @@
+.wrapper {
+    padding: 50px 0;
+    background-image: url(https://barista.qodeinteractive.com/elementor/wp-content/uploads/2017/01/home-1-parallax-2.jpg);
+}
+
+.quotes {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.quotes p {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #c7a17a;
+    font-style: italic;
+}
+
+.quotes h3 {
+    font-size: 3.6rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.separate {
+    padding: 16px 0;
+}
+
+.separate span {
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #c7a17a;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.item-img {
+    width: 60%;
+}
+
+.item-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.item-title {
+    display: flex;
+    align-items: center;
+}
+
+.item-title h4 {
+    font-size: 2rem;
+}
+
+.item-separate {
+    margin: 0 8px;
+    flex: 1;
+    position: relative;
+    top: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.item-content p {
+    font-size: 1.4rem;
+    color: #c7a17a;
+    font-weight: 300;
+}
+
+.btn-wrapper {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-wrapper a {
+    padding: 12px 28px;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(199, 161, 122);
+    border-color: rgb(199, 161, 122);
+    transition: all ease 0.3s;
+    font-size: 1.4rem;
+}
+
+.btn-wrapper a:hover {
+    color: #000;
+    background-color: #fff;
+    transition: all ease 0.3s;
+}
