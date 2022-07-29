@@ -2,6 +2,7 @@ import Slider from '~/layouts/components/Slider';
 import Reservations from '~/layouts/components/Reservations';
 import Posts from '~/layouts/components/Posts';
 import Menu from '~/layouts/components/Menu';
+import Products from '~/layouts/components/Products';
 function Home() {
     return (
         <div className="home">
@@ -9,6 +10,7 @@ function Home() {
             <Reservations />
             <Posts />
             <Menu />
+            <Products />
         </div>
     );
 }

@@ -104,7 +104,7 @@ function Menu() {
                             </div>
                             <div className={cx('item-content')}>
                                 <div className={cx('item-title')}>
-                                    <h4>COFFEE MOCHA</h4>
+                                    <h4>ICED GINGERBREAD LATTE</h4>
                                     <div className={cx('item-separate')}></div>
                                     <h4>$2.95</h4>
                                 </div>
@@ -117,7 +117,7 @@ function Menu() {
                             </div>
                             <div className={cx('item-content')}>
                                 <div className={cx('item-title')}>
-                                    <h4>COFFEE MOCHA</h4>
+                                    <h4>ICED CAFFE MOCHA</h4>
                                     <div className={cx('item-separate')}></div>
                                     <h4>$2.95</h4>
                                 </div>

@@ -1,0 +1,90 @@
+.wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+.quotes {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.quotes p {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #c7a17a;
+    font-style: italic;
+}
+
+.quotes h3 {
+    font-size: 3.6rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.separate {
+    padding: 16px 0;
+}
+
+.separate span {
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #c7a17a;
+}
+
+.item {
+    position: relative;
+}
+
+.img {
+    width: 100%;
+}
+
+.item div h3:hover {
+    color: #c7a17a;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.item div h4 {
+    color: #c7a17a;
+}
+
+.atc-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.item:hover .atc {
+    transform: translateY(0);
+    background-color: #c7a17a;
+    transition: all ease 0.3s;
+}
+
+.atc {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    transform: translateY(60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.atc span {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+
+.atc .icon {
+    fill: #fff;
+}
