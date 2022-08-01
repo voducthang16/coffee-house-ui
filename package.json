@@ -1,7 +1,8 @@
 {
     "name": "coffee-house-ui",
     "version": "0.1.0",
-    "private": true,
+    "homepage": "https://voducthang16.github.io/coffee-house-ui/",
+    "private": false,
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.1.1",
         "@fortawesome/free-brands-svg-icons": "^6.1.1",
@@ -12,6 +13,7 @@
         "@testing-library/react": "^13.3.0",
         "@testing-library/user-event": "^13.5.0",
         "classnames": "^2.3.1",
+        "gh-pages": "^4.0.0",
         "normalize.css": "^8.0.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
@@ -30,7 +32,9 @@
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
-        "eject": "react-app-rewired eject"
+        "eject": "react-app-rewired eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [

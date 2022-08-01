@@ -4,7 +4,7 @@ import { publicRoutes } from '~/routes';
 import { DefaultLayout } from '~/layouts';
 function App() {
     return (
-        <Router>
+        <Router basename={window.location.pathname || ''}>
             <Routes>
                 {publicRoutes.map((route, index) => {
                     let Layout = DefaultLayout;
