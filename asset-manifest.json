@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/coffee-house-ui/static/css/main.4e88cee5.css",
+    "main.js": "/coffee-house-ui/static/js/main.4d302e66.js",
+    "static/js/787.ce45dcdd.chunk.js": "/coffee-house-ui/static/js/787.ce45dcdd.chunk.js",
+    "static/media/slider_video.mp4": "/coffee-house-ui/static/media/slider_video.926af9ef04a9dc75c480.mp4",
+    "static/media/3.jpg": "/coffee-house-ui/static/media/3.336bccdca28b172f0799.jpg",
+    "static/media/1.jpg": "/coffee-house-ui/static/media/1.92bdee2787cd06781601.jpg",
+    "static/media/2.jpg": "/coffee-house-ui/static/media/2.54fdf1c6d064118342f7.jpg",
+    "static/media/product_1.jpg": "/coffee-house-ui/static/media/product_1.6786f33ee2a8fb1560bf.jpg",
+    "index.html": "/coffee-house-ui/index.html",
+    "main.4e88cee5.css.map": "/coffee-house-ui/static/css/main.4e88cee5.css.map",
+    "main.4d302e66.js.map": "/coffee-house-ui/static/js/main.4d302e66.js.map",
+    "787.ce45dcdd.chunk.js.map": "/coffee-house-ui/static/js/787.ce45dcdd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e88cee5.css",
+    "static/js/main.4d302e66.js"
+  ]
+}
