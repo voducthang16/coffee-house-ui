@@ -26,18 +26,18 @@ function Reservations() {
                     <h6 className={cx('text')}>For</h6>
                     <div className={cx('select-wrapper')}>
                         <select name="" id="">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
+                            <option value="">01/08/2022</option>
+                            <option value="">02/08/2022</option>
+                            <option value="">03/08/2022</option>
                         </select>
                         <CalendarIcon width={24} height={24} className={cx('icon-in-select')} />
                     </div>
                     <h6 className={cx('text')}>At</h6>
                     <div className={cx('select-wrapper')}>
                         <select name="" id="">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
+                            <option value="">7:00 am</option>
+                            <option value="">8:00 am</option>
+                            <option value="">9:00 am</option>
                         </select>
                         <TimeIcon width={24} height={24} className={cx('icon-in-select')} />
                     </div>

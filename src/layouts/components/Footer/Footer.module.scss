@@ -1,0 +1,115 @@
+.wrapper {
+    padding: 50px 0;
+    color: #fff;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    border-bottom: 1px solid #212121;
+    background-image: url(https://barista.qodeinteractive.com/elementor/wp-content/uploads/2017/02/footer-img.jpg);
+}
+
+.title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.hours-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.hours-list li {
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.post-list {
+    list-style-type: none;
+}
+
+.post-list li {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(145, 145, 145, 0.192);
+}
+
+.post-list li:last-child {
+    border-bottom: none;
+}
+
+.post-list li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.post-list li a:hover {
+    color: #c7a17a;
+    transition: all ease 0.3s;
+}
+
+.post-list li h6 {
+    font-size: 1.2rem;
+    color: #c7a17a;
+}
+
+.mail {
+    display: block;
+    padding-top: 8px;
+    text-decoration: none;
+    color: #c7a17a;
+    outline: none;
+    margin-bottom: 8px;
+    font-size: 1.6rem;
+}
+
+.address,
+.phone {
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.location-list {
+    list-style: none;
+    font-weight: 300;
+}
+
+.location-list li {
+    padding: 8px 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(145, 145, 145, 0.192);
+}
+
+.location-list li:last-child {
+    border-bottom: none;
+}
+
+.location-list h5 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.location-list h6 {
+    font-weight: 300;
+}
+
+.bottom {
+    background-color: #000;
+    padding: 16px 0;
+}
+
+.list-bottom {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
