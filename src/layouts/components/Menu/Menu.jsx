@@ -17,7 +17,7 @@ function Menu() {
                     </div>
                 </div>
                 <div className={cx('row')}>
-                    <div className={cx('col l-6')}>
+                    <div className={cx('col l-6 m-12 c-12')}>
                         <div className={cx('item')}>
                             <div className={cx('item-img-wrapper')}>
                                 <Image src={images.coffee} className={cx('item-img')} />
@@ -97,7 +97,7 @@ function Menu() {
                             </div>
                         </div>
                     </div>
-                    <div className={cx('col l-6')}>
+                    <div className={cx('col l-6 m-12 c-12')}>
                         <div className={cx('item')}>
                             <div className={cx('item-img-wrapper')}>
                                 <Image src={images.coffee} className={cx('item-img')} />

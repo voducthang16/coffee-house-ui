@@ -88,3 +88,13 @@
 .atc .icon {
     fill: #fff;
 }
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+@media (max-width: 739px) {
+    .item {
+        padding: 0 8px;
+        margin-bottom: 8px;
+    }
+}

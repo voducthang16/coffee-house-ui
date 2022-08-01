@@ -11,12 +11,12 @@ function Header() {
         <header className={cx('wrapper')}>
             <div className={cx('container wide')}>
                 <div className={cx('row')}>
-                    <div className={cx('col l-2')}>
+                    <div className={cx('col l-2 m-3')}>
                         <Link to={config.routes.home} className={cx('logo-link')}>
                             <Image className={cx('logo-img')} src={image.logo} alt="Logo" />
                         </Link>
                     </div>
-                    <div className={cx('col l-6 l-o-4')}>
+                    <div className={cx('col l-6 m-9 l-o-4')}>
                         <nav className={cx('navbar')}>
                             <ul className={cx('navbar-list')}>
                                 <li className={cx('navbar-item')}>

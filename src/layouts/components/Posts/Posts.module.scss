@@ -48,3 +48,19 @@
 .link:hover .icon {
     transform: translateX(4px);
 }
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .post-wrapper {
+        margin-bottom: 16px;
+    }
+    .title {
+        min-height: 125px;
+    }
+}
+
+@media (max-width: 739px) {
+    .post-wrapper {
+        padding: 0 8px;
+        margin-bottom: 8px;
+    }
+}

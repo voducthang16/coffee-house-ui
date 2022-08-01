@@ -18,7 +18,7 @@ function Products() {
                     </div>
                 </div>
                 <div className={cx('row')}>
-                    <div className={cx('col l-3')}>
+                    <div className={cx('col l-3 m-6 c-12')}>
                         <div className={cx('item')}>
                             <div className={cx('atc-wrapper')}>
                                 <Image src={images.product_1} className={cx('img')} />
@@ -32,7 +32,7 @@ function Products() {
                             </div>
                         </div>
                     </div>
-                    <div className={cx('col l-3')}>
+                    <div className={cx('col l-3 m-6 c-12')}>
                         <div className={cx('item')}>
                             <div className={cx('atc-wrapper')}>
                                 <Image src={images.product_1} className={cx('img')} />
@@ -46,7 +46,7 @@ function Products() {
                             </div>
                         </div>
                     </div>
-                    <div className={cx('col l-3')}>
+                    <div className={cx('col l-3 m-6 c-12')}>
                         <div className={cx('item')}>
                             <div className={cx('atc-wrapper')}>
                                 <Image src={images.product_1} className={cx('img')} />
@@ -60,7 +60,7 @@ function Products() {
                             </div>
                         </div>
                     </div>
-                    <div className={cx('col l-3')}>
+                    <div className={cx('col l-3 m-6 c-12')}>
                         <div className={cx('item')}>
                             <div className={cx('atc-wrapper')}>
                                 <Image src={images.product_1} className={cx('img')} />

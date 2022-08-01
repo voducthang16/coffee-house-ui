@@ -10,7 +10,7 @@ function Posts() {
         <section className={cx('wrapper')}>
             <div className={cx('container wide')}>
                 <div className={cx('row')}>
-                    <div className={cx('col l-4')}>
+                    <div className={cx('col l-4 m-6 c-12')}>
                         <div className={cx('post-wrapper')}>
                             <Image className={cx('img')} src={images._1} />
                             <h3 className={cx('title')}>
@@ -26,7 +26,7 @@ function Posts() {
                             </a>
                         </div>
                     </div>
-                    <div className={cx('col l-4')}>
+                    <div className={cx('col l-4 m-6 c-12')}>
                         <div className={cx('post-wrapper')}>
                             <Image className={cx('img')} src={images._2} />
                             <h3 className={cx('title')}>
@@ -42,7 +42,7 @@ function Posts() {
                             </a>
                         </div>
                     </div>
-                    <div className={cx('col l-4')}>
+                    <div className={cx('col l-4 m-6 c-12')}>
                         <div className={cx('post-wrapper')}>
                             <Image className={cx('img')} src={images._3} />
                             <h3 className={cx('title')}>

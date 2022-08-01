@@ -9,7 +9,7 @@ function Footer() {
             <section className={cx('wrapper')}>
                 <div className={cx('container wide')}>
                     <div className={cx('row')}>
-                        <div className={cx('col l-3')}>
+                        <div className={cx('col l-3 m-6 c-12')}>
                             <div>
                                 <h3 className={cx('title')}>OPENING HOURS</h3>
                                 <ul className={cx('hours-list')}>
@@ -44,7 +44,7 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className={cx('col l-3')}>
+                        <div className={cx('col l-3 m-6 c-12')}>
                             <div>
                                 <h3 className={cx('title')}>LATEST POSTS</h3>
                                 <ul className={cx('post-list')}>
@@ -63,9 +63,9 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className={cx('col l-3')}>
-                            <div>
-                                <h3 className={cx('title')}>CONTACT US</h3>
+                        <div className={cx('col l-3 m-6 c-12')}>
+                            <h3 className={cx('title')}>CONTACT US</h3>
+                            <div className={cx('contact-list')}>
                                 <a className={cx('mail')} href="mailto:contact@voducthang.com">
                                     contact@voducthang.com
                                 </a>
@@ -75,9 +75,9 @@ function Footer() {
                                 </h5>
                             </div>
                         </div>
-                        <div className={cx('col l-3')}>
+                        <div className={cx('col l-3 m-6 c-12')}>
+                            <h3 className={cx('title')}>OTHER LOCATIONS</h3>
                             <div>
-                                <h3 className={cx('title')}>OTHER LOCATIONS</h3>
                                 <ul className={cx('location-list')}>
                                     <li>
                                         <h5>BARISTA COFFEE SHOP</h5>
